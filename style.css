@@ -26,7 +26,6 @@ body {
 }
 .container1img {
     width: 500px;
-    background-color: grey;
 }
 .container1left h1 {
     font-size: 48px;
@@ -86,14 +85,17 @@ body {
     font-size: 36px;
     font-weight: bold;
 }
-.container2list div {
+/*.container2list div {
     border-style: solid;
     height: 150px;
     width: 150px;
     border-color: #3882f6;
     border-radius: 15px;
     border-width: 4px;
-}
+this code was added to the img's directly instead
+}*/
+
+
 .container2list p {
     display: flex;
     text-align: center;
@@ -200,3 +202,25 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
+
+.academy {
+    height: auto;
+    width: 500px;
+}
+.president, .provost, .dean, .advocate  {
+    height: auto;
+    width: 150px;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    border-color: #3882f6;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+.dean, .advocate {
+    height: 150px;
+}
+
+
+
